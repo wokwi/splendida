@@ -1,0 +1,120 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 2650 1350 1650 550 
+U 5FFB59F3
+F0 "LEDS" 50
+F1 "splendida-leds.sch" 50
+F2 "DIN" I L 2650 1550 50 
+F3 "DOUT" I L 2650 1650 50 
+$EndSheet
+$Comp
+L Connector:Conn_01x03_Female J2
+U 1 1 5FFB5FA0
+P 1500 1450
+F 0 "J2" H 1528 1476 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 1528 1385 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1500 1450 50  0001 C CNN
+F 3 "~" H 1500 1450 50  0001 C CNN
+F 4 "0" H 1500 1450 50  0001 C CNN "JLCPCB BOM"
+	1    1500 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5FFB7673
+P 2000 1550
+F 0 "#PWR0101" H 2000 1300 50  0001 C CNN
+F 1 "GND" H 2005 1377 50  0000 C CNN
+F 2 "" H 2000 1550 50  0001 C CNN
+F 3 "" H 2000 1550 50  0001 C CNN
+	1    2000 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1250 1850 1350
+Wire Wire Line
+	1850 1350 1700 1350
+Wire Wire Line
+	1700 1450 2300 1450
+Wire Wire Line
+	2300 1450 2300 1550
+Wire Wire Line
+	2300 1550 2650 1550
+Text Label 2100 1450 0    50   ~ 0
+DIN
+$Comp
+L Connector:Conn_01x03_Female J1
+U 1 1 5FFB9A7A
+P 1450 2100
+F 0 "J1" H 1478 2126 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 1478 2035 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1450 2100 50  0001 C CNN
+F 3 "~" H 1450 2100 50  0001 C CNN
+F 4 "0" H 1450 2100 50  0001 C CNN "JLCPCB BOM"
+	1    1450 2100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1650 2100 2300 2100
+Wire Wire Line
+	2300 2100 2300 1650
+Wire Wire Line
+	2300 1650 2650 1650
+Text Label 2050 2100 0    50   ~ 0
+DOUT
+$Comp
+L power:GND #PWR0103
+U 1 1 5FFBA4C3
+P 1850 2250
+F 0 "#PWR0103" H 1850 2000 50  0001 C CNN
+F 1 "GND" H 1855 2077 50  0000 C CNN
+F 2 "" H 1850 2250 50  0001 C CNN
+F 3 "" H 1850 2250 50  0001 C CNN
+	1    1850 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2250 1850 2200
+Wire Wire Line
+	1850 2200 1650 2200
+Wire Wire Line
+	1650 2000 1800 2000
+Wire Wire Line
+	1700 1550 2000 1550
+$Comp
+L power:VDD #PWR?
+U 1 1 60146924
+P 1850 1250
+F 0 "#PWR?" H 1850 1100 50  0001 C CNN
+F 1 "VDD" H 1865 1423 50  0000 C CNN
+F 2 "" H 1850 1250 50  0001 C CNN
+F 3 "" H 1850 1250 50  0001 C CNN
+	1    1850 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 60146EC8
+P 1800 2000
+F 0 "#PWR?" H 1800 1850 50  0001 C CNN
+F 1 "VDD" H 1815 2173 50  0000 C CNN
+F 2 "" H 1800 2000 50  0001 C CNN
+F 3 "" H 1800 2000 50  0001 C CNN
+	1    1800 2000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
