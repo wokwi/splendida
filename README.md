@@ -1,4 +1,4 @@
-﻿# Splendida! ✨
+# Splendida! ✨
 
 > 256 RGB LEDs beautifully packed in Fermat's Spiral shape
 
@@ -14,7 +14,7 @@ The design was inspired by Evil Genious Labs' [Fibonacci 256](https://www.evilge
 
 - 256 WS2812B-B RGB LEDs
 - 256 100nF decoupling capacitors
-- 1x3-pin header connectors with standard 0.1" spacing:
+- 2 sets of 3-pin header connectors with standard 0.1" spacing:
   - `5V`, `DIN`, `GND`
   - `5V`, `DOUT`, `GND`
 - 172mm board diameter
