@@ -21,6 +21,14 @@ The design was inspired by Evil Genious Labs' [Fibonacci 256](https://www.evilge
 - 3xM3 mounting holes (81.5mm from center)
 - Hypnotic skull spiral decoration 💀
 
+## Power consumption
+
+| Test condition                     | Current | Power  |
+| ---------------------------------- | ------- | ------ |
+| Standby (all LEDs off)             | 0.16A   | 0.8W   |
+| Maximum brightness, rainbow colors | 3.75A   | 18.75W |
+| Maximum brightness, all LEDs white | 9.21A   | 46W    |
+
 ## License
 
 This work is licensed under a
