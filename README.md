@@ -29,6 +29,11 @@ The design was inspired by Evil Genious Labs' [Fibonacci 256](https://www.evilge
 | Maximum brightness, rainbow colors | 3.75A   | 18.75W |
 | Maximum brightness, all LEDs white | 9.21A   | 46W    |
 
+## 3D Models
+
+- [Splendida 3D Model](3d/splendida.stl) (OpenSCAD [source code](3d/spelndida.scad))
+- [Diffuser by ldirko](3d/ldirko-diffuser.stl) (also available on [Thingiverse](https://www.thingiverse.com/thing:4782141))
+
 ## License
 
 This work is licensed under a
