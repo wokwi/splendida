@@ -36,7 +36,7 @@ The design was inspired by Evil Genious Labs' [Fibonacci 256](https://www.evilge
 
 ## Pixelblaze map
 
-To use with Pixelblaze, load [this map file](pizelblaze-map.json). For more information, check out the [Mapping in Pixelblaze guide](https://www.bhencke.com/mapping-in-pixelblaze).
+To use with Pixelblaze, load [this map file](pixelblaze-map.json). For more information, check out the [Mapping in Pixelblaze guide](https://www.bhencke.com/mapping-in-pixelblaze).
 
 ## License
 
