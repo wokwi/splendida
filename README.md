@@ -34,6 +34,10 @@ The design was inspired by Evil Genious Labs' [Fibonacci 256](https://www.evilge
 - [Splendida 3D Model](3d/splendida.stl) (OpenSCAD [source code](3d/spelndida.scad))
 - [Diffuser by ldirko](3d/ldirko-diffuser.stl) (also available on [Thingiverse](https://www.thingiverse.com/thing:4782141))
 
+## Pixelblaze map
+
+To use with Pixelblaze, load [this map file](pizelblaze-map.json). For more information, check out the [Mapping in Pixelblaze guide](https://www.bhencke.com/mapping-in-pixelblaze).
+
 ## License
 
 This work is licensed under a
